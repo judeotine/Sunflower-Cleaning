@@ -10,70 +10,70 @@ import BlogPost from "@/components/BlogPost";
 
 const blogs = [
   {
-    id: 1,
-    title: "10 Eco-Friendly Cleaning Tips for a Greener Home",
-    excerpt: "Discover how to make your cleaning routine more environmentally friendly with these simple tips and natural cleaning solutions.",
-    content: "Full content here...",
-    image: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    author: "Emma Green",
-    date: "2023-04-12",
-    category: "Cleaning Tips",
-    tags: ["eco-friendly", "green cleaning", "natural products"]
-  },
-  {
-    id: 2,
-    title: "How to Remove Tough Laundry Stains: The Ultimate Guide",
-    excerpt: "Learn professional techniques to tackle the most stubborn stains on your clothes, from wine to grease.",
-    content: "Full content here...",
-    image: "https://images.unsplash.com/photo-1545173168-9f1947eebb7f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    author: "Michael Johnson",
-    date: "2023-03-28",
-    category: "Laundry Tips",
-    tags: ["stain removal", "laundry hacks", "clothing care"]
-  },
-  {
-    id: 3,
-    title: "The Benefits of Professional Deep Cleaning for Allergen Control",
-    excerpt: "Discover how regular deep cleaning can reduce allergens in your home and improve indoor air quality for your family.",
-    content: "Full content here...",
-    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    author: "Sarah Williams",
-    date: "2023-02-15",
-    category: "Health & Wellness",
-    tags: ["allergies", "indoor air quality", "deep cleaning"]
-  },
-  {
-    id: 4,
-    title: "Organizing Your Laundry Room: Efficiency Meets Style",
-    excerpt: "Transform your laundry room into an efficient and aesthetically pleasing space with these organization tips.",
-    content: "Full content here...",
-    image: "https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    author: "Alex Thompson",
-    date: "2023-01-20",
-    category: "Organization",
-    tags: ["laundry room", "home organization", "storage solutions"]
-  },
-  {
-    id: 5,
-    title: "Understanding Different Fabric Types and How to Care for Them",
-    excerpt: "A comprehensive guide to identifying different fabrics and the specific care requirements for each type.",
-    content: "Full content here...",
-    image: "https://images.unsplash.com/photo-1592375680268-78640a988bb4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    author: "Lisa Chen",
-    date: "2022-12-05",
-    category: "Laundry Tips",
-    tags: ["fabric care", "clothing maintenance", "laundry guide"]
-  },
-  {
-    id: 6,
-    title: "5 Time-Saving Cleaning Routines for Busy Professionals",
-    excerpt: "Efficient cleaning strategies that fit into your packed schedule without compromising on cleanliness.",
-    content: "Full content here...",
-    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    author: "James Wilson",
-    date: "2022-11-18",
-    category: "Cleaning Tips",
-    tags: ["time management", "quick cleaning", "efficiency"]
+  //   id: 1,
+  //   title: "10 Eco-Friendly Cleaning Tips for a Greener Home",
+  //   excerpt: "Discover how to make your cleaning routine more environmentally friendly with these simple tips and natural cleaning solutions.",
+  //   content: "Full content here...",
+  //   image: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+  //   author: "Emma Green",
+  //   date: "2023-04-12",
+  //   category: "Cleaning Tips",
+  //   tags: ["eco-friendly", "green cleaning", "natural products"]
+  // },
+  // {
+  //   id: 2,
+  //   title: "How to Remove Tough Laundry Stains: The Ultimate Guide",
+  //   excerpt: "Learn professional techniques to tackle the most stubborn stains on your clothes, from wine to grease.",
+  //   content: "Full content here...",
+  //   image: "https://images.unsplash.com/photo-1545173168-9f1947eebb7f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+  //   author: "Michael Johnson",
+  //   date: "2023-03-28",
+  //   category: "Laundry Tips",
+  //   tags: ["stain removal", "laundry hacks", "clothing care"]
+  // },
+  // {
+  //   id: 3,
+  //   title: "The Benefits of Professional Deep Cleaning for Allergen Control",
+  //   excerpt: "Discover how regular deep cleaning can reduce allergens in your home and improve indoor air quality for your family.",
+  //   content: "Full content here...",
+  //   image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+  //   author: "Sarah Williams",
+  //   date: "2023-02-15",
+  //   category: "Health & Wellness",
+  //   tags: ["allergies", "indoor air quality", "deep cleaning"]
+  // },
+  // {
+  //   id: 4,
+  //   title: "Organizing Your Laundry Room: Efficiency Meets Style",
+  //   excerpt: "Transform your laundry room into an efficient and aesthetically pleasing space with these organization tips.",
+  //   content: "Full content here...",
+  //   image: "https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+  //   author: "Alex Thompson",
+  //   date: "2023-01-20",
+  //   category: "Organization",
+  //   tags: ["laundry room", "home organization", "storage solutions"]
+  // },
+  // {
+  //   id: 5,
+  //   title: "Understanding Different Fabric Types and How to Care for Them",
+  //   excerpt: "A comprehensive guide to identifying different fabrics and the specific care requirements for each type.",
+  //   content: "Full content here...",
+  //   image: "https://images.unsplash.com/photo-1592375680268-78640a988bb4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+  //   author: "Lisa Chen",
+  //   date: "2022-12-05",
+  //   category: "Laundry Tips",
+  //   tags: ["fabric care", "clothing maintenance", "laundry guide"]
+  // },
+  // {
+  //   id: 6,
+  //   title: "5 Time-Saving Cleaning Routines for Busy Professionals",
+  //   excerpt: "Efficient cleaning strategies that fit into your packed schedule without compromising on cleanliness.",
+  //   content: "Full content here...",
+  //   image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+  //   author: "James Wilson",
+  //   date: "2022-11-18",
+  //   category: "Cleaning Tips",
+  //   tags: ["time management", "quick cleaning", "efficiency"]
   }
 ];
 
