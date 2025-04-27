@@ -7,98 +7,98 @@ import Section from "@/components/Section";
 import TestimonialCard from "@/components/TestimonialCard";
 import { cn } from "@/lib/utils";
 
-// Mock testimonial data
+
 const testimonials = [
-  // {
-  //   id: 1,
-  //   name: "Sarah Johnson",
-  //   role: "Regular Customer",
-  //   content: "Sunflower Cleaning has transformed my home! Their attention to detail is incredible, and I love their eco-friendly approach. My house has never looked better.",
-  //   rating: 5,
-  //   image: "https://randomuser.me/api/portraits/women/45.jpg",
-  //   featured: true,
-  //   service: "Home Cleaning"
-  // },
-  // {
-  //   id: 2,
-  //   name: "Michael Taylor",
-  //   role: "Office Manager",
-  //   content: "We've been using Sunflower for our office cleaning needs for over a year. Consistently excellent results and very professional staff. Highly recommended for business cleaning.",
-  //   rating: 5,
-  //   image: "https://randomuser.me/api/portraits/men/32.jpg",
-  //   featured: true,
-  //   service: "Office Cleaning"
-  // },
-  // {
-  //   id: 3,
-  //   name: "Jennifer Lewis",
-  //   role: "Homeowner",
-  //   content: "Their laundry service is a life-saver! My clothes come back perfectly clean and neatly folded every time. The pickup and delivery option makes it so convenient.",
-  //   rating: 4,
-  //   image: "https://randomuser.me/api/portraits/women/68.jpg",
-  //   featured: false,
-  //   service: "Laundry Service"
-  // },
-  // {
-  //   id: 4,
-  //   name: "Robert Chen",
-  //   role: "Busy Professional",
-  //   content: "I was skeptical about hiring a cleaning service, but Sunflower exceeded my expectations. Their team is punctual, thorough, and respectful of my space. Worth every penny!",
-  //   rating: 5,
-  //   image: "https://randomuser.me/api/portraits/men/29.jpg",
-  //   featured: false,
-  //   service: "Deep Cleaning"
-  // },
-  // {
-  //   id: 5,
-  //   name: "Lisa Garcia",
-  //   role: "New Parent",
-  //   content: "As new parents, finding time to clean is nearly impossible. Sunflower has been a lifesaver! Their team is trustworthy and they use products that are safe around our baby.",
-  //   rating: 5,
-  //   image: "https://randomuser.me/api/portraits/women/33.jpg",
-  //   featured: false,
-  //   service: "Home Cleaning"
-  // },
-  // {
-  //   id: 6,
-  //   name: "David Williams",
-  //   role: "Real Estate Agent",
-  //   content: "I use Sunflower for move-out cleanings for my clients. They consistently deliver outstanding results that help properties show better and sell faster. Extremely reliable service.",
-  //   rating: 5,
-  //   image: "https://randomuser.me/api/portraits/men/62.jpg",
-  //   featured: false,
-  //   service: "Move-Out Cleaning"
-  // },
-  // {
-  //   id: 7,
-  //   name: "Patricia Moore",
-  //   role: "Retired Teacher",
-  //   content: "I've tried several cleaning services over the years, and Sunflower is by far the best. Their attention to detail is remarkable, and the team is always friendly and professional.",
-  //   rating: 5,
-  //   image: "https://randomuser.me/api/portraits/women/86.jpg",
-  //   featured: false,
-  //   service: "Home Cleaning"
-  // },
-  // {
-  //   id: 8,
-  //   name: "James Wilson",
-  //   role: "Small Business Owner",
-  //   content: "My dry cleaning always comes back looking brand new. Their stain removal skills are impressive, and they've saved several of my favorite items that I thought were ruined.",
-  //   rating: 5,
-  //   image: "https://randomuser.me/api/portraits/men/15.jpg",
-  //   featured: false,
-  //   service: "Dry Cleaning"
-  // },
-  // {
-  //   id: 9,
-  //   name: "Emily Thompson",
-  //   role: "Working Mom",
-  //   content: "The recurring cleaning service has made such a difference in our family life. Coming home to a clean house twice a month gives us more quality time together on weekends.",
-  //   rating: 4,
-  //   image: "https://randomuser.me/api/portraits/women/26.jpg",
-  //   featured: false,
-  //   service: "Bi-Weekly Cleaning"
-  // }
+  {
+    id: 1,
+    name: "Sarah ",
+    role: "Regular Customer",
+    content: "Sunflower Cleaning has transformed my home! Their attention to detail is incredible and I love their eco-friendly approach. My house has never looked better.",
+    rating: 5,
+    image: "public/contact.png",
+    featured: true,
+    service: "Home Cleaning"
+  },
+  {
+    id: 2,
+    name: "Michael",
+    role: "Office Manager",
+    content: "We've been using Sunflower for our office cleaning needs for over a year. Consistently excellent results and very professional staff. Highly recommended for business cleaning.",
+    rating: 5,
+    image: "public/contact.png",
+    featured: true,
+    service: "Office Cleaning"
+  },
+  {
+    id: 3,
+    name: "Jennifer",
+    role: "Homeowner",
+    content: "Their laundry service is a life-saver! My clothes come back perfectly clean and neatly folded every time. The pickup and delivery option makes it so convenient.",
+    rating: 4,
+    image: "public/contact.png",
+    featured: false,
+    service: "Laundry Service"
+  },
+  {
+    id: 4,
+    name: "Robert",
+    role: "Busy Professional",
+    content: "I was skeptical about hiring a cleaning service, but Sunflower exceeded my expectations. Their team is punctual, thorough and respectful of my space. Worth every penny!",
+    rating: 5,
+    image: "public/contact.png",
+    featured: false,
+    service: "Deep Cleaning"
+  },
+  {
+    id: 5,
+    name: "Lisa Namatovu",
+    role: "New Parent",
+    content: "As new parents, finding time to clean is nearly impossible. Sunflower has been a lifesaver! Their team is trustworthy and they use products that are safe around our baby.",
+    rating: 5,
+    image: "public/contact.png",
+    featured: false,
+    service: "Home Cleaning"
+  },
+  {
+    id: 6,
+    name: "David",
+    role: "Real Estate Agent",
+    content: "I use Sunflower for move-out cleanings for my clients. They consistently deliver outstanding results that help properties show better and sell faster. Extremely reliable service.",
+    rating: 5,
+    image: "public/contact.png",
+    featured: false,
+    service: "Move-Out Cleaning"
+  },
+  {
+    id: 7,
+    name: "Patricia",
+    role: "Retired Teacher",
+    content: "I've tried several cleaning services over the years and Sunflower is by far the best. Their attention to detail is remarkable and the team is always friendly and professional.",
+    rating: 5,
+    image: "public/contact.png",
+    featured: false,
+    service: "Home Cleaning"
+  },
+  {
+    id: 8,
+    name: "James",
+    role: "Small Business Owner",
+    content: "My dry cleaning always comes back looking brand new. Their stain removal skills are impressive and they've saved several of my favorite items that I thought were ruined.",
+    rating: 5,
+    image: "public/contact.png",
+    featured: false,
+    service: "Dry Cleaning"
+  },
+  {
+    id: 9,
+    name: "Otim Oscar",
+    role: "Student",
+    content: "The recurring cleaning service has made such a difference.",
+    rating: 4,
+    image: "public/contact.png",
+    featured: false,
+    service: "Bi-Weekly Cleaning"
+  }
 ];
 
 const TestimonialsPage = () => {
