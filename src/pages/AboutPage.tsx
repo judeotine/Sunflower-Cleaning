@@ -26,14 +26,10 @@ const ValueCard = ({
 );
 
 const TeamMember = ({ 
-  name, 
-  role, 
-  bio, 
+  name,  
   image 
 }: { 
   name: string; 
-  role: string; 
-  bio: string; 
   image: string;
 }) => (
   <div className="group relative overflow-hidden rounded-lg bg-white shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
@@ -46,8 +42,6 @@ const TeamMember = ({
     </div>
     <div className="p-6">
       <h3 className="text-xl font-semibold">{name}</h3>
-      <p className="text-sunflower-600 mb-3">{role}</p>
-      <p className="text-gray-600">{bio}</p>
     </div>
   </div>
 );
@@ -73,29 +67,29 @@ const AboutPage = () => {
           <div>
             <h2 className="text-3xl font-bold mb-6">Our Story</h2>
             <p className="text-gray-600 mb-4">
-              Sunflower Cleaning & Laundry Services was founded in 2015 with a simple vision: 
+              Sunflower Cleaning & Laundry Services was founded  with a simple vision: 
               to provide premium cleaning services that are both effective and environmentally 
               responsible.
             </p>
             <p className="text-gray-600 mb-4">
-              Our founder, Emma Sullivan, was frustrated with the harsh chemicals used by traditional 
-              cleaning services and the environmental impact of conventional laundry practices. She 
+              We were frustrated with the harsh chemicals used by traditional 
+              cleaning services and the environmental impact of conventional laundry practices. So we
               decided to create a company that would prioritize both cleanliness and sustainability.
             </p>
             <p className="text-gray-600 mb-8">
               What started as a small local operation has grown into a trusted service provider, 
               with a team of dedicated professionals committed to brightening homes and offices 
               throughout the region. Our success is built on our commitment to quality, environmental 
-              responsibility, and exceptional customer service.
+              responsibility and exceptional customer service.
             </p>
             <div className="flex flex-wrap gap-6 text-sm text-gray-600">
               <div className="flex items-center gap-1">
                 <Clock className="w-4 h-4 text-sunflower-500" />
-                <span>Founded in 2015</span>
+                <span>Founded in 2025</span>
               </div>
               <div className="flex items-center gap-1">
                 <Users className="w-4 h-4 text-sunflower-500" />
-                <span>80+ Team Members</span>
+                <span>7+ Team Members</span>
               </div>
               <div className="flex items-center gap-1">
                 <Award className="w-4 h-4 text-sunflower-500" />
@@ -105,7 +99,7 @@ const AboutPage = () => {
           </div>
           <div>
             <img 
-              src="https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+              src="public/images/group.png" 
               alt="Sunflower Cleaning team" 
               className="rounded-lg shadow-md"
             />
@@ -172,28 +166,32 @@ const AboutPage = () => {
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <TeamMember 
-            name="Emma Sullivan"
-            role="Founder & CEO"
-            bio="With a background in environmental science, Emma created Sunflower to combine her passion for sustainability with premium cleaning services."
-            image="https://randomuser.me/api/portraits/women/23.jpg"
+            name="Joseph"
+            image="public/images/mangeni.png"
           />
           <TeamMember 
-            name="Michael Chen"
-            role="Operations Director"
-            bio="Michael ensures our day-to-day operations run smoothly and efficiently, while maintaining our high standards of service."
-            image="https://randomuser.me/api/portraits/men/54.jpg"
+            name="Baraka"
+            image="public/images/baraka.png"
           />
           <TeamMember 
-            name="Sophia Rodriguez"
-            role="Training Manager"
-            bio="Sophia develops our rigorous training programs, ensuring every team member delivers consistent, exceptional service."
-            image="https://randomuser.me/api/portraits/women/65.jpg"
+            name="Bash"
+            image="public/images/bash.png"
           />
           <TeamMember 
-            name="David Washington"
-            role="Customer Experience Manager"
-            bio="David is dedicated to ensuring every customer receives a personalized, outstanding experience with every service."
-            image="https://randomuser.me/api/portraits/men/22.jpg"
+            name="Claire"
+            image="public/images/claire.png"
+          />
+          <TeamMember 
+            name="Elizabeth"
+            image="public/images/elizabeth.png"
+          />
+          <TeamMember 
+            name="Ian"
+            image="public/images/ian.png"
+          />
+          <TeamMember 
+            name="Mariater"
+            image="public/images/mariater.png"
           />
         </div>
       </Section>
@@ -249,49 +247,7 @@ const AboutPage = () => {
         </div>
       </Section>
 
-      {/* Certifications */}
-      <Section className="bg-gray-50">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Our Certifications</h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            We're proud to be recognized for our commitment to excellence and sustainability.
-          </p>
-        </div>
-        <div className="flex flex-wrap justify-center gap-8">
-          <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 w-[200px] text-center">
-            <img 
-              src="https://placehold.co/120x120/eee/aaa?text=Green+Clean" 
-              alt="Green Clean Certified" 
-              className="mx-auto mb-4"
-            />
-            <h3 className="font-semibold mb-2">Green Clean Certified</h3>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 w-[200px] text-center">
-            <img 
-              src="https://placehold.co/120x120/eee/aaa?text=Eco+Star" 
-              alt="Eco Star Rating" 
-              className="mx-auto mb-4"
-            />
-            <h3 className="font-semibold mb-2">5 Star Eco Rating</h3>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 w-[200px] text-center">
-            <img 
-              src="https://placehold.co/120x120/eee/aaa?text=Sustainable" 
-              alt="Sustainable Business Network" 
-              className="mx-auto mb-4"
-            />
-            <h3 className="font-semibold mb-2">Sustainable Business Network</h3>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 w-[200px] text-center">
-            <img 
-              src="https://placehold.co/120x120/eee/aaa?text=Quality" 
-              alt="Quality Service Guarantee" 
-              className="mx-auto mb-4"
-            />
-            <h3 className="font-semibold mb-2">Quality Service Guarantee</h3>
-          </div>
-        </div>
-      </Section>
+  
 
       {/* CTA Section */}
       <Section fullWidth className="bg-sunflower-500 text-white py-16">
