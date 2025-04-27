@@ -273,25 +273,25 @@ const HomePage = () => {
       >
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <TestimonialCard
-            name="Sarah Johnson"
+            name="Sarah"
             role="Regular Customer"
             content="Sunflower Cleaning has transformed my home! Their attention to detail is incredible, and I love their eco-friendly approach."
             rating={5}
-            image="https://randomuser.me/api/portraits/women/45.jpg"
+            image="public/contact.png"
           />
           <TestimonialCard
-            name="Michael Taylor"
+            name="Michael"
             role="Office Manager"
             content="We've been using Sunflower for our office cleaning needs for over a year. Consistently excellent results and very professional staff."
             rating={5}
-            image="https://randomuser.me/api/portraits/men/32.jpg"
+            image="public/contact.png"
           />
           <TestimonialCard
-            name="Jennifer Lewis"
+            name="Jennifer"
             role="Homeowner"
             content="Their laundry service is a life-saver! My clothes come back perfectly clean and neatly folded every time. Highly recommend!"
             rating={4}
-            image="https://randomuser.me/api/portraits/women/68.jpg"
+            image="public/contact.png"
           />
         </div>
         
