@@ -99,7 +99,7 @@ const AboutPage = () => {
           </div>
           <div>
             <img 
-              src="/images/group.png" 
+              src="assets/images/group.png" 
               alt="Sunflower Cleaning team" 
               className="rounded-lg shadow-md"
             />
