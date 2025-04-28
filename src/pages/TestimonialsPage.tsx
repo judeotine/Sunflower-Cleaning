@@ -15,7 +15,7 @@ const testimonials = [
     role: "Regular Customer",
     content: "Sunflower Cleaning has transformed my home! Their attention to detail is incredible and I love their eco-friendly approach. My house has never looked better.",
     rating: 5,
-    image: "public/contact.png",
+    image: "https://mega.nz/file/YtxAUBoI#71FQMPCCLi-xzd4aLpCjI8O2yK0ImpGCy-4S1tycXtc",
     featured: true,
     service: "Home Cleaning"
   },
@@ -25,7 +25,7 @@ const testimonials = [
     role: "Office Manager",
     content: "We've been using Sunflower for our office cleaning needs for over a year. Consistently excellent results and very professional staff. Highly recommended for business cleaning.",
     rating: 5,
-    image: "/contact.png",
+    image: "https://mega.nz/file/YtxAUBoI#71FQMPCCLi-xzd4aLpCjI8O2yK0ImpGCy-4S1tycXtc",
     featured: true,
     service: "Office Cleaning"
   },
@@ -35,7 +35,7 @@ const testimonials = [
     role: "Homeowner",
     content: "Their laundry service is a life-saver! My clothes come back perfectly clean and neatly folded every time. The pickup and delivery option makes it so convenient.",
     rating: 4,
-    image: "/contact.png",
+    image: "https://mega.nz/file/YtxAUBoI#71FQMPCCLi-xzd4aLpCjI8O2yK0ImpGCy-4S1tycXtc",
     featured: false,
     service: "Laundry Service"
   },
@@ -45,7 +45,7 @@ const testimonials = [
     role: "Busy Professional",
     content: "I was skeptical about hiring a cleaning service, but Sunflower exceeded my expectations. Their team is punctual, thorough and respectful of my space. Worth every penny!",
     rating: 5,
-    image: "/contact.png",
+    image: "https://mega.nz/file/YtxAUBoI#71FQMPCCLi-xzd4aLpCjI8O2yK0ImpGCy-4S1tycXtc",
     featured: false,
     service: "Deep Cleaning"
   },
@@ -55,7 +55,7 @@ const testimonials = [
     role: "New Parent",
     content: "As new parents, finding time to clean is nearly impossible. Sunflower has been a lifesaver! Their team is trustworthy and they use products that are safe around our baby.",
     rating: 5,
-    image: "/contact.png",
+    image: "https://mega.nz/file/YtxAUBoI#71FQMPCCLi-xzd4aLpCjI8O2yK0ImpGCy-4S1tycXtc",
     featured: false,
     service: "Home Cleaning"
   },
@@ -65,7 +65,7 @@ const testimonials = [
     role: "Real Estate Agent",
     content: "I use Sunflower for move-out cleanings for my clients. They consistently deliver outstanding results that help properties show better and sell faster. Extremely reliable service.",
     rating: 5,
-    image: "/contact.png",
+    image: "https://mega.nz/file/YtxAUBoI#71FQMPCCLi-xzd4aLpCjI8O2yK0ImpGCy-4S1tycXtc",
     featured: false,
     service: "Move-Out Cleaning"
   },
@@ -75,7 +75,7 @@ const testimonials = [
     role: "Retired Teacher",
     content: "I've tried several cleaning services over the years and Sunflower is by far the best. Their attention to detail is remarkable and the team is always friendly and professional.",
     rating: 5,
-    image: "/contact.png",
+    image: "https://mega.nz/file/YtxAUBoI#71FQMPCCLi-xzd4aLpCjI8O2yK0ImpGCy-4S1tycXtc",
     featured: false,
     service: "Home Cleaning"
   },
@@ -85,7 +85,7 @@ const testimonials = [
     role: "Small Business Owner",
     content: "My dry cleaning always comes back looking brand new. Their stain removal skills are impressive and they've saved several of my favorite items that I thought were ruined.",
     rating: 5,
-    image: "/contact.png",
+    image: "https://mega.nz/file/YtxAUBoI#71FQMPCCLi-xzd4aLpCjI8O2yK0ImpGCy-4S1tycXtc",
     featured: false,
     service: "Dry Cleaning"
   },
@@ -95,7 +95,7 @@ const testimonials = [
     role: "Student",
     content: "The recurring cleaning service has made such a difference.",
     rating: 4,
-    image: "/contact.png",
+    image: "https://mega.nz/file/YtxAUBoI#71FQMPCCLi-xzd4aLpCjI8O2yK0ImpGCy-4S1tycXtc",
     featured: false,
     service: "Bi-Weekly Cleaning"
   }
