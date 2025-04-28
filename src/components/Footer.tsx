@@ -139,16 +139,16 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin size={20} className="text-sunflower-500 mr-2 mt-1 flex-shrink-0" />
                 <span className="text-gray-600">
-                  123 Sunflower Street, Bloomington, NY 10023
+                  Kampala, Uganda
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="text-sunflower-500 mr-2 flex-shrink-0" />
-                <span className="text-gray-600">(555) 123-4567</span>
+                <span className="text-gray-600">+256 789 225621</span>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="text-sunflower-500 mr-2 flex-shrink-0" />
-                <span className="text-gray-600">hello@sunflowercleaning.com</span>
+                <span className="text-gray-600">sunflowercleaning@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -157,16 +157,8 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-200 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Sunflower Cleaning & Laundry Services. All rights reserved.
+            &copy; {new Date().getFullYear()} Sunflower Cleaning & Laundry Services. 
           </p>
-          <div className="flex space-x-6">
-            <Link to="/privacy" className="text-gray-500 hover:text-sunflower-500 text-sm">
-              Privacy Policy
-            </Link>
-            <Link to="/terms" className="text-gray-500 hover:text-sunflower-500 text-sm">
-              Terms of Service
-            </Link>
-          </div>
         </div>
       </div>
     </footer>
