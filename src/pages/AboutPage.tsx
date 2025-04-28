@@ -167,31 +167,31 @@ const AboutPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <TeamMember 
             name="Joseph"
-            image="/images/mangeni.png"
+            image="public/images/mangeni.png"
           />
           <TeamMember 
             name="Baraka"
-            image="/images/baraka.png"
+            image="public/images/baraka.png"
           />
           <TeamMember 
             name="Bash"
-            image="/images/bash.png"
+            image="public/images/bash.png"
           />
           <TeamMember 
             name="Claire"
-            image="/images/claire.png"
+            image="public/images/claire.png"
           />
           <TeamMember 
             name="Elizabeth"
-            image="/images/elizabeth.png"
+            image="public/images/elizabeth.png"
           />
           <TeamMember 
             name="Ian"
-            image="/images/ian.png"
+            image="public/images/ian.png"
           />
           <TeamMember 
             name="Mariater"
-            image="/images/mariater.png"
+            image="public/images/mariater.png"
           />
         </div>
       </Section>
