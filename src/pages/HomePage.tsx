@@ -277,21 +277,21 @@ const HomePage = () => {
             role="Regular Customer"
             content="Sunflower Cleaning has transformed my home! Their attention to detail is incredible, and I love their eco-friendly approach."
             rating={5}
-            image="public/contact.png"
+            image="/contact.png"
           />
           <TestimonialCard
             name="Michael"
             role="Office Manager"
             content="We've been using Sunflower for our office cleaning needs for over a year. Consistently excellent results and very professional staff."
             rating={5}
-            image="public/contact.png"
+            image="/contact.png"
           />
           <TestimonialCard
             name="Jennifer"
             role="Homeowner"
             content="Their laundry service is a life-saver! My clothes come back perfectly clean and neatly folded every time. Highly recommend!"
             rating={4}
-            image="public/contact.png"
+            image="/contact.png"
           />
         </div>
         
