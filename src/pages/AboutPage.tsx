@@ -99,7 +99,7 @@ const AboutPage = () => {
           </div>
           <div>
             <img 
-              src="public/images/group.png" 
+              src="/images/group.png" 
               alt="Sunflower Cleaning team" 
               className="rounded-lg shadow-md"
             />
@@ -167,31 +167,31 @@ const AboutPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <TeamMember 
             name="Joseph"
-            image="public/images/mangeni.png"
+            image="/images/mangeni.png"
           />
           <TeamMember 
             name="Baraka"
-            image="public/images/baraka.png"
+            image="/images/baraka.png"
           />
           <TeamMember 
             name="Bash"
-            image="public/images/bash.png"
+            image="/images/bash.png"
           />
           <TeamMember 
             name="Claire"
-            image="public/images/claire.png"
+            image="/images/claire.png"
           />
           <TeamMember 
             name="Elizabeth"
-            image="public/images/elizabeth.png"
+            image="/images/elizabeth.png"
           />
           <TeamMember 
             name="Ian"
-            image="public/images/ian.png"
+            image="/images/ian.png"
           />
           <TeamMember 
             name="Mariater"
-            image="public/images/mariater.png"
+            image="/images/mariater.png"
           />
         </div>
       </Section>
