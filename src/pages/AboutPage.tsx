@@ -193,6 +193,14 @@ const AboutPage = () => {
             name="Mariater"
             image="assets/images/mariater.png"
           />
+          <TeamMember 
+            name="Angella"
+            image="assets/images/angella.png"
+          />
+          <TeamMember 
+            name="Precious"
+            image="assets/images/precious.png"
+          />
         </div>
       </Section>
 

@@ -27,7 +27,7 @@ const galleryImages = [
   },
   {
     id: "3",
-    src: "https://images.unsplash.com/photo-1520946708818-4966701c25e6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    src: "assets/1.png",
     alt: "Kitchen before cleaning",
     category: "before-after",
     title: "Kitchen Makeover",
@@ -36,7 +36,7 @@ const galleryImages = [
   },
   {
     id: "4",
-    src: "https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    src: "assets/1.png",
     alt: "Kitchen after cleaning",
     category: "before-after",
     title: "Kitchen Makeover",
@@ -45,7 +45,7 @@ const galleryImages = [
   },
   {
     id: "5",
-    src: "https://images.unsplash.com/photo-1595428774223-ef52624120d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    src: "assets/3.png",
     alt: "Laundry service",
     category: "laundry",
     title: "Professional Laundry",
@@ -54,8 +54,8 @@ const galleryImages = [
   },
   {
     id: "6",
-    src: "https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-    alt: "Folded laundry",
+    src: "assets/2.png",
+    alt: "laundry",
     category: "laundry",
     title: "Perfectly Folded",
     description: "Expertly folded laundry ready for delivery",
