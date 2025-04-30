@@ -14,7 +14,7 @@ const galleryImages = [
     category: "before-after",
     title: "Living Room Transformation",
     description: "Before and after a deep cleaning service",
-    before: true
+    
   },
   {
     id: "2",
@@ -23,7 +23,7 @@ const galleryImages = [
     category: "before-after",
     title: "Living Room Transformation",
     description: "Fresh and sparkling after our cleaning service",
-    before: false
+    
   },
   {
     id: "3",
@@ -32,7 +32,7 @@ const galleryImages = [
     category: "before-after",
     title: "Kitchen Makeover",
     description: "Before our deep cleaning service",
-    before: true
+    
   },
   {
     id: "4",
@@ -41,7 +41,7 @@ const galleryImages = [
     category: "before-after",
     title: "Kitchen Makeover",
     description: "Spotless surfaces after our cleaning service",
-    before: false
+    
   },
   {
     id: "5",
@@ -50,7 +50,7 @@ const galleryImages = [
     category: "laundry",
     title: "Professional Laundry",
     description: "Our state-of-the-art laundry facility",
-    before: null
+    
   },
   {
     id: "6",
@@ -59,7 +59,7 @@ const galleryImages = [
     category: "laundry",
     title: "Perfectly Folded",
     description: "Expertly folded laundry ready for delivery",
-    before: null
+    
   },
   {
     id: "7",
@@ -68,7 +68,7 @@ const galleryImages = [
     category: "before-after",
     title: "Bathroom Refresh",
     description: "Before our deep cleaning service",
-    before: true
+    
   },
   {
     id: "8",
@@ -77,7 +77,7 @@ const galleryImages = [
     category: "before-after",
     title: "Bathroom Refresh",
     description: "Gleaming fixtures after our service",
-    before: false
+  
   },
   {
     id: "9",
@@ -86,7 +86,7 @@ const galleryImages = [
     category: "laundry",
     title: "Professional Ironing",
     description: "Crisp, wrinkle-free results every time",
-    before: null
+    
   },
   {
     id: "10",
@@ -95,7 +95,7 @@ const galleryImages = [
     category: "commercial",
     title: "Office Cleaning",
     description: "Professional cleaning for workspaces",
-    before: null
+    
   },
   {
     id: "11",
@@ -104,7 +104,7 @@ const galleryImages = [
     category: "commercial",
     title: "Commercial Services",
     description: "Keeping businesses spotless and professional",
-    before: null
+    
   },
   {
     id: "12",
@@ -113,7 +113,7 @@ const galleryImages = [
     category: "products",
     title: "Eco-Friendly Products",
     description: "The safe, effective products we use",
-    before: null
+  
   },
 ];
 
@@ -216,15 +216,6 @@ const GalleryPage = () => {
                   alt={image.alt} 
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                 />
-                {image.before !== null && (
-                  <div className={`absolute top-2 left-2 px-3 py-1 rounded-full text-xs font-medium ${
-                    image.before 
-                      ? "bg-red-500 text-white" 
-                      : "bg-ecogreen-500 text-white"
-                  }`}>
-                    {image.before ? "Before" : "After"}
-                  </div>
-                )}
               </div>
               <div className="p-4">
                 <h3 className="font-medium mb-1">{image.title}</h3>
